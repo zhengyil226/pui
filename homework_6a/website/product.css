@@ -1,0 +1,548 @@
+.white{
+	background-color: white;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 180px;
+}
+
+/* home logo */
+
+.logo img{
+	position: fixed;
+	top: -20px;
+	left: 20px;
+}
+
+/* user account */
+
+.userLogin img{
+	max-height: 32px;
+	position: fixed;
+	top: 22px;
+	right: 347px;
+}
+
+.userLogin #welcome {
+	font-family: 'Gabriola';
+    font-size: 24px;
+    color: #818181;
+    position: fixed;
+    top: 20px;
+    right: 265px;
+}
+
+.userLogin #name {
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    position: fixed;
+    top: 20px;
+    right: 210px;
+}
+
+/* my cart */
+
+.myCart #rec1{
+	max-height: 46px;
+	position: fixed;
+	top: 17px;
+	right: 40px;
+}
+
+.myCart #cart{
+	max-height: 28px;
+	position: fixed;
+	top: 25px;
+	right: 137px;
+}
+
+.myCart #text1{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    position: fixed;
+    top: 20px;
+    right: 57px;
+}
+
+.numItem img{
+	max-height: 20px;
+	position: fixed;
+	top: 10px;
+	right: 30px;
+
+}
+
+.numItem #numItem{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    color: #FFFFFF;
+    position: fixed;
+    top: -2px;
+	right: 38px;
+}
+
+.navBar #rec2{
+	max-height: 46px;
+	position: fixed;
+	top: 110px;
+	left: 40px;
+}
+
+/* navigation bar */
+
+.navBar #rec3{
+	max-height: 46px;
+	width: 212px;
+	position: fixed;
+	top: 111px;
+	left: 118px;
+}
+
+.all{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    color: #383838;
+    position: fixed;
+    top: 115px;
+    left: 70px;
+}
+
+.chef img{
+	max-height: 24px;
+	position: fixed;
+    top: 120px;
+    left: 138px;
+
+}
+
+.chef #text2{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    color: #FFFFFF;
+    position: fixed;
+    top: 115px;
+    left: 178px;
+
+}
+
+.best img{
+	max-height: 24px;
+	position: fixed;
+    top: 120px;
+    left: 351px;
+
+}
+
+.best #text3{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    color: #383838;
+    position: fixed;
+    top: 115px;
+    left: 386px;
+
+}
+
+.fruit img{
+	max-height: 24px;
+	position: fixed;
+    top: 120px;
+    left: 507px;
+
+}
+
+.fruit #text4{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    color: #383838;
+    position: fixed;
+    top: 115px;
+    left: 547px;
+
+}
+
+.nut img{
+	max-height: 24px;
+	position: fixed;
+    top: 120px;
+    left: 635px;
+
+}
+
+.nut #text5{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    color: #383838;
+    position: fixed;
+    top: 115px;
+    left: 678px;
+
+}
+
+.more img{
+	max-width: 18px;
+	position: fixed;
+    top: 130px;
+    left: 750px;
+}
+
+/* view mode */
+
+.viewMode #rec4{
+	max-height: 46px;
+	position: fixed;
+	top: 110px;
+	right: 40px;
+}
+
+.viewMode #rec5{
+	max-height: 45px;
+	position: fixed;
+	top: 111px;
+	right: 100px;
+
+}
+
+.viewMode #gallery{
+	max-height: 24px;
+	position: fixed;
+	top: 120px;
+	right: 117px;
+}
+
+.viewMode #album{
+	max-height: 24px;
+	position: fixed;
+	top: 120px;
+	right: 60px;
+}
+
+/* items */
+
+.item{
+	margin-left: 40px;
+	margin-top: 188px;
+}
+
+
+.original, .blackberry, .walnut, .original_gf, .pumpkin, .caramel {
+	width: 356px;
+	height: 280px;
+	border: 1px solid #C4C4C4;
+	display: inline-block;
+	margin-left: -2.7px;
+	margin-right: -2.7px;
+	margin-top: -0.5px;
+	margin-bottom: -0.5px;
+}
+
+.original #chef1{
+	max-height: 36px;
+	margin-right: 5px;
+}
+
+.original #best1{
+	max-height: 36px;
+}
+
+.original #chef1, .original #best1{
+	display: inline;
+	position: relative;
+	top: 13px;
+	left: 30px;
+
+}
+
+.original #img1{
+	height: 180px;
+	position: relative;
+	top: 18px;
+	left: 30px;
+
+}
+
+.original #name1{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 183px;
+}
+
+.original #price1{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.original #name1, .original #price1{
+	display: inline;
+	position: relative;
+	top: 13px;
+	left: 30px;
+}
+
+.blackberry #chef2, .blackberry #best2{
+	max-height: 36px;
+	margin-right: 5px;
+}
+
+.blackberry #fruit1{
+	max-height: 36px;
+}
+
+.blackberry #chef2, .blackberry #best2, .blackberry #fruit1{
+	display: inline;
+	position: relative;
+	top: 13px;
+	left: 30px;
+
+}
+
+.blackberry #img2{
+	height: 180px;
+	position: relative;
+	top: 18px;
+	left: 30px;
+
+}
+
+.blackberry #name2{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 163px;
+}
+
+.blackberry #price2{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.blackberry #name2, .blackberry #price2{
+	display: inline;
+	position: relative;
+	top: 13px;
+	left: 30px;
+}
+
+.walnut #chef3{
+	max-height: 36px;
+	margin-right: 5px;
+}
+
+.walnut #nut1{
+	max-height: 36px;
+}
+
+.walnut #chef3, .walnut #nut1{
+	display: inline;
+	position: relative;
+	top: 13px;
+	left: 30px;
+
+}
+
+.walnut #img3{
+	height: 180px;
+	position: relative;
+	top: 18px;
+	left: 30px;
+
+}
+
+.walnut #name3{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 137px;
+}
+
+.walnut #oldPrice1{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    color: #B5B5B5;
+    margin-right: 5px;
+}
+
+.walnut #price3{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    color: #F34D4D;
+
+}
+
+.walnut #name3, .walnut #oldPrice1, .walnut #price3{
+	display: inline;
+	position: relative;
+	top: 13px;
+	left: 30px;
+}
+
+.walnut #line1{
+	width: 50px;
+	position: relative;
+	top: 10px;
+	left: -75px;
+}
+
+.original_gf #chef4{
+	max-height: 36px;
+	margin-right: 5px;
+}
+
+.original_gf #best3{
+	max-height: 36px;
+}
+
+.original_gf #chef4, .original_gf #best3{
+	display: inline;
+	position: relative;
+	top: 13px;
+	left: 30px;
+
+}
+
+.original_gf #img4{
+	height: 180px;
+	position: relative;
+	top: 18px;
+	left: 30px;
+
+}
+
+.original_gf #name4{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 78px;
+}
+
+.original_gf #price4{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.original_gf #name4, .original_gf #price4{
+	display: inline;
+	position: relative;
+	top: 13px;
+	left: 30px;
+}
+
+.pumpkin #chef5{
+	max-height: 36px;
+	margin-right: 5px;
+}
+
+.pumpkin #fruit2{
+	max-height: 36px;
+}
+
+.pumpkin #chef5, .pumpkin #fruit2{
+	display: inline;
+	position: relative;
+	top: 13px;
+	left: 30px;
+
+}
+
+.pumpkin #img5{
+	height: 180px;
+	position: relative;
+	top: 18px;
+	left: 30px;
+
+}
+
+.pumpkin #name5{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 80px;
+}
+
+.pumpkin #oldPrice2{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    color: #B5B5B5;
+    margin-right: 5px;
+}
+
+.pumpkin #price5{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    color: #F34D4D;
+
+}
+
+.pumpkin #name5, .pumpkin #oldPrice2, .pumpkin #price5{
+	display: inline;
+	position: relative;
+	top: 13px;
+	left: 30px;
+}
+
+.pumpkin #line2{
+	width: 50px;
+	position: relative;
+	top: 10px;
+	left: -75px;
+}
+
+.caramel #chef6, .caramel #best3{
+	max-height: 36px;
+	margin-right: 5px;
+}
+
+.caramel #nut2{
+	max-height: 36px;
+}
+
+.caramel #chef6, .caramel #best3, .caramel #nut2{
+	display: inline;
+	position: relative;
+	top: 13px;
+	left: 30px;
+
+}
+
+.caramel #img6{
+	height: 180px;
+	position: relative;
+	top: 18px;
+	left: 30px;
+
+}
+
+.caramel #name6{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 133px;
+}
+
+.caramel #price6{
+	font-family: 'Gabriola';
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.caramel #name6, .caramel #price6{
+	display: inline;
+	position: relative;
+	top: 13px;
+	left: 30px;
+}
